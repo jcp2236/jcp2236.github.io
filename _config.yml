@@ -9,7 +9,7 @@
 title: Josh Pullin - Front End Web Developer
 email: joshpullin134@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  <h2>About:<h2>
+  <h2>About:</h2>
   I'm a front end web developer interested in responsive design and UI/UX, 
   because let's face it, no one wants to use an ugly, hard to nagivate site.
 baseurl: "" # the subpath of your site, e.g. /blog
