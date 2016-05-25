@@ -1,23 +1,148 @@
----
-layout: default
----
+<!doctype html>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <a href="#" class="logo-icon">
+          <img src="https://s3.amazonaws.com/portpics/JPLogo_circle.png">
+        </a>
 
-<div class="home">
+        <ul class="menu">
+          <li><a href="#">Get the App</a></li>
+          <li><a href="#">Tutorials</a></li>
+          <li><a href="#">Magazines</a></li>
+          <li><a href="#">Web Tools</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Careers</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">More <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Our Blog</a></li>
+              <li><a href="#">Maps Blog</a></li>
+              <li><a href="#">Eng Blog</a></li>
+              <li><a href="#">Advertisers</a></li>
+              <li><a href="#">Publishers</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-  <h1 class="page-heading">Posts</h1>
+    <div class="slider">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="slide active-slide">
+        <div class="container">
+          <div class="row">
+            <div class="slide-copy col-xs-5">
+              <h1>Josh Pullin</h1>
+              <h3>Front End Web Developer and GIS Analyst<br><br></h3>
+              <p>I'm a front end web developer interested in responsive design and UI/UX because let's face it, no one wants to use an ugly, hard to nagivate site.</p>
+              
+             <!--  <ul class="get-app">
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ios.png"></a></li>
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/android.png"></a></li>
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/windows.png"></a></li>
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/blackberry.png"></a></li>
+              </ul> -->
+            </div>
+            <div class="slide-img col-xs-7">
+              <img src="https://s3.amazonaws.com/portpics/WebAppLight.png" height="469" width="370px">
+            </div>
+          </div>
+        </div>      
+      </div>
+ 
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="slide-copy col-xs-5">
+              <h1>What Makes the Web Go 'Round</h1>
+              <h2></h2>
+              <p>I have a year of experience using web technologies to make the lives of my employers, my coworkers, and myself (of course!) easier. I'm usually working on projects relating to websites, web apps, and scripts to automate tasks. I'm always open to collaborating.</p>
+              
+            </div>
+            <div class="slide-img col-xs-7">
+              <img src="https://s3.amazonaws.com/portpics/lang-logo.png" height="400">
+            </div>
+          </div>
+        </div>      
+      </div> 
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="slide-copy col-xs-5">
+              <h1>Mapping and Technology</h1>
+              <p>I'm currently working as a GIS Analyst as I continually improve my talents in web technologies, which opens up a lot of interesting possibilities for projects using both skillsets. Using Python to automate processes in GIS is what first pushed me towards the field of web devleopment.</p>
+              
+              <!-- <ul class="get-app">
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ios.png"></a></li>
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/android.png"></a></li>
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/windows.png"></a></li>
+                <li><a href="#"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/blackberry.png"></a></li>
+              </ul> -->
+            </div>
+            <div class="slide-img col-xs-7">
+              <img src="https://s3.amazonaws.com/portpics/MapProjects.png" height="466" width="466">
+            </div>
+            
+          </div>
+        </div>      
+      </div> 
+
+      <div class="slide slide-feature">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="box">
+                <h1>Featured Project: Web map built on the Mapbox.js API<br><br></h1>
+
+                 <p style="font-size: 15px">Published in 3 periodicals:</p>
+                  <a href="http://www.citylab.com/weather/2016/03/cherry-blossoms-washington-dc-peak-bloom/475407/" style="font-size:15px; font-style:italic">CityLab</a>
+                  <a href="http://www.washingtoncitypaper.com/news/city-desk/blog/13070641/map-heres-where-you-can-see-cherry-trees-other-than-at-the-tidal-basin" style="font-size:15px; font-style:italic">Washington City Paper</a>
+                  <a href="http://thehillishome.com/2016/03/where-to-see-the-cherry-blossoms-without-the-crowds/" style="font-size:15px; font-style:italic">The Hill is Home</a>
+
+                  <br>
+                  <br>
+              
+                <a href="http://dc-flowering-trees.s3-website-us-east-1.amazonaws.com/">View Here</a>
+                <p>- Use the layer selector in the top right corner to view different layers -</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>      
+      </div>
+
+    </div>
+
+
+
+    <div class="slider-nav">
+      <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png"></a>
+      <ul class="slider-dots">
+        <li class="dot active-dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
+    </div>
+
+    <div class="textbox">
+      <p>Career Snapshots</p>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
