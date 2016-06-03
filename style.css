@@ -175,7 +175,6 @@ body {
 }
 
 .box {
-  display: inline-block;
   margin: auto;
   position: relative;
   width: 90%;
