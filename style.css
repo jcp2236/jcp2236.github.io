@@ -180,21 +180,6 @@ body {
   background-color: rgba(136, 136, 136, 0.7);
 }
 
-.links {
-  position: relative;
-  z-index: 10;
-  top: 50%;
-  transform: translateY(-150%);
-}
-
-.links p {
-  font-size: 15px;
-}
-
-.links a {
-  font-size: 15px;
-  font-style:italic;
-}
 
 .slider-nav {
   text-align: center;
