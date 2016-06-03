@@ -175,7 +175,9 @@ body {
 }
 
 .box {
-  margin-top: 25px;
+  display: inline-block;
+  position: relative;
+  width: 90.5%;
   text-align: center;
   background-color: rgba(136, 136, 136, 0.7);
 }
