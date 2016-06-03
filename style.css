@@ -156,12 +156,10 @@ body {
 .slide-feature h1 {
   display: block;
   color: #7ec0ee;
-  
   font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
   font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  
-  font-size: 44px;
+  font-weight: 300;
+  font-size: 36px;
 }
 
 .slide-feature p {
