@@ -182,7 +182,8 @@ body {
   text-align: center;
   background-color: rgba(136, 136, 136, 0.7);
 }
-.box p, .box li
+
+.box p, .box h1
 {
   font-size: 1.2vmin;
 }
