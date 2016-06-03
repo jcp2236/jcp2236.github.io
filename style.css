@@ -177,7 +177,8 @@ body {
 .box {
   display: inline-block;
   position: relative;
-  width: 90.5%;
+  width: 90%;
+  height:90%;
   text-align: center;
   background-color: rgba(136, 136, 136, 0.7);
 }
