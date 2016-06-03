@@ -183,9 +183,12 @@ body {
   background-color: rgba(136, 136, 136, 0.7);
 }
 
-.box h1
-{
+.box h1 {
   font-size: 10.2vmin;
+}
+
+.box a {
+  font-size: 6vmin;
 }
 
 
