@@ -276,10 +276,9 @@ footer {
 
 iframe {
   border-style: none;
-  padding: 30px;
   position: relative;
-  left: 15%;
+  left: 10%;
   top: 150px;
-  min-width: 70%;
+  min-width: 80%;
   min-height: 700px;
 }
