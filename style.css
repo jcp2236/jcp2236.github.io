@@ -186,6 +186,7 @@ body {
 .slider-nav {
   text-align: center;
   margin-top: 20px;
+  background-image: -webkit-linear-gradient(top, #7ec0ee, #3381b8); /* For Chrome and Safari */
 }
 
 .arrow-prev {
