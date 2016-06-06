@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  background-color:#7ec0ee;
+  background-image: -webkit-linear-gradient(top, #9ad5ff, #095e96); 
 }
 
 header {
