@@ -278,8 +278,8 @@ iframe {
   border-style: none;
   padding: 30px;
   position: relative;
-  left: 25%;
+  left: 15%;
   top: 100px;
-  min-width: 50%;
+  min-width: 70%;
   min-height: 700px;
 }
