@@ -175,9 +175,13 @@ body {
 }
 
 .box {
-  position:relative;
-  top: 50%;
-  transform: translateY(20%);
+  margin: auto;
+  position: relative;
+  top:5%;
+  left: 5%;
+  width: 90%;
+  height:90%;
+  text-align: center;
   background-color: rgba(136, 136, 136, 0.7);
 }
 
