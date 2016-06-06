@@ -265,11 +265,11 @@ footer {
 .periodicals {
   text-align: center;
   position:relative;
-  left:30%;
+  left:15%;
   top: 50%;
   min-width: 40%;
-  max-width: 40%;
-  min-height: 200px;
+  max-width: 70%;
+  min-height: 100px;
   transform: translateY(20%);
   background-color: rgba(0, 0, 0, 0.7);
 }
