@@ -17,7 +17,7 @@ body {
 /* Header */
 
 .header {
-  background-image: url('https://s3.amazonaws.com/portpics/orthomall.png');
+  background-image: -webkit-linear-gradient(top, #ffffff, #7ec0ee); /* For Chrome and Safari */
   border-bottom: 1px solid #ddd;
   
   font-family: 'Oswald', sans-serif;
