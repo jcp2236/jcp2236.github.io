@@ -1,7 +1,7 @@
 /* General */
 
 body {
-  background-color: #7ec0ee;
+  background-image: -webkit-linear-gradient(top, #7ec0ee, #0a3589);
 }
 
 .col-xs-12 p {
