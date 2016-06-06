@@ -1,7 +1,7 @@
 /* General */
 
 body {
-  background-image: -webkit-linear-gradient(top, #7ec0ee, #3381b8); /* For Chrome and Safari */
+  background-color: #7ec0ee;
 }
 
 .col-xs-12 p {
