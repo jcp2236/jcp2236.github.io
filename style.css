@@ -44,6 +44,8 @@ body {
 
 .menu a {
   color: #898989;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 /* Dropdown */
@@ -57,7 +59,7 @@ body {
 .dropdown-menu li a {
   color: #898989;
   padding: 6px 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 
