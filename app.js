@@ -2,7 +2,10 @@ var main = function() {
     $('.dropdown-toggle').click(function() {
         $('.dropdown-menu').toggle();
     });
+
+
     $('.arrow-next').click(function() {
+        clearInterval(autoSlide);
         var currentSlide = $('.active-slide');
         var nextSlide = currentSlide.next();
         
@@ -12,6 +15,7 @@ var main = function() {
         
         currentSlide.fadeOut(600).removeClass('active-slide');
         nextSlide.fadeIn(600).addClass('active-slide');
+
         
         var currentDot = $('.active-dot');
         var nextDot = currentDot.next();
@@ -23,8 +27,11 @@ var main = function() {
         currentDot.removeClass('active-dot');
         nextDot.addClass('active-dot');
     });
+
+
         
      $('.arrow-prev').click(function() {
+        clearInterval(autoSlide);
         var currentSlide = $('.active-slide');
         var prevSlide = currentSlide.prev();
         
@@ -45,7 +52,6 @@ var main = function() {
         currentDot.removeClass('active-dot');
         prevDot.addClass('active-dot');   
     });
-}
 
 var autoSlide = setInterval(function() {
     var currentSlide = $('.active-slide');
@@ -68,6 +74,7 @@ var autoSlide = setInterval(function() {
         
     currentDot.removeClass('active-dot');
     nextDot.addClass('active-dot');
-}, 7000);
+}, 4000);
+}
 
 $(document).ready(main);
