@@ -68,6 +68,6 @@ var autoSlide = setInterval(function() {
         
     currentDot.removeClass('active-dot');
     nextDot.addClass('active-dot');
-}, 4000);
+}, 7000);
 
 $(document).ready(main);
